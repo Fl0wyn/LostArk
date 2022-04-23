@@ -38,6 +38,11 @@
 #### Preveza d'Oreha
 
 - Premier boss
-    - 
+    - Rester dans la zone d'eau
+    - Sortir de la zone quand il rugit ou potion arrêt de temps
+    - Détruire pilier et taper les alliés pour retirer buff
 - Deuxième boss
-    - 
+    - Tuer le clown
+    - Eviter boule puis safe zone
+    - Entrer dans les zone étoile (4, 6 ou 8)
+    - Retenir ordre safe place
