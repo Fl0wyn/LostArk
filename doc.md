@@ -44,7 +44,7 @@
     - Attention à l'oxygène
     - Zone horloge 1,2,3 puis 1,2,3,3,4
 
-#### Sanctuaire d'Alarix
+#### Sanctuaire d'Alaric
 
 - Premier boss
     - Attention à l'oxygène
