@@ -3,8 +3,7 @@
 #### Route des lamentations
 
 - Premier boss
-    - Ne pas coller le joueur qui a une bombe
-    - Tuer les dragons
+    - ???
 - Deuxième boss
     - 4 Joueurs dans une zone en horloge
     - Prendre 3 boules jaunes
@@ -25,9 +24,16 @@
 #### Oeil d'Aira
 
 - Premier boss
-    - 
+    - OS si le  boss a trois épées
+    - Après sont attaques des 4 côtés et de la zone, se mettre au cac pour se faire attraper
 - Deuxième boss
-    - 
+    - Ne pas s'approcher tout de suite lors du 2eme TP
+    - Détruire les ballons
+    - Taper les alliés étourdit
+
+> 1er TP : 12 barres HP
+>
+> 2eme TP : 6 barres HP
 
 #### Preveza d'Oreha
 
