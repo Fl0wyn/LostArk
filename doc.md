@@ -19,8 +19,7 @@
     - Ne pas taper quand il met son bouclier
     - Tuer alt de la couleur de la boule puis safe zone
 
-
-## Puits d'oreha
+## Puits d'Oreha
 
 #### Oeil d'Aira
 
