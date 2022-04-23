@@ -13,9 +13,14 @@
 #### Karkosa silencieux
 
 - Premier boss
-    - 
+    - Attention à l'oxygène
+    - Tuer les deux pirates et casser shield boss
 - Deuxième boss
-    -
+    - Attention à l'oxygène
+    - Tuer le poisson
+- Troisième boss
+    - Attention à l'oxygène
+    - Zone horloge (1,2,3) (1,2,3,3,4)
 
 ## Arche d'Arogance
 
