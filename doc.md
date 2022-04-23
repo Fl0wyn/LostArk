@@ -1,3 +1,24 @@
+## Arche d'Arogance
+
+#### Route des lamentations
+
+- Premier boss
+    - Éviter boules électriques
+    - Tourner autour de lui pour éviter les rayons
+- Deuxième boss
+    - 4 Joueurs dans une zone en horloge
+    - Prendre 3 boules jaunes
+    - Capturer boules rouges
+
+#### Forge de l'orgueil déchu
+
+- Premier boss
+    - Ne pas coller le joueur qui a une bombe
+    - Tuer les dragons
+- Deuxième boss
+    - Ne pas taper quand il met son bouclier
+    - Tuer alt de la couleur de la boule puis safe zone
+
 ## Porte du paradis
 
 #### Mer Indolente
@@ -20,28 +41,24 @@
     - Tuer le poisson
 - Troisième boss
     - Attention à l'oxygène
-    - Zone horloge (1,2,3) (1,2,3,3,4)
+    - Zone horloge 1,2,3 puis 1,2,3,3,4
 
-## Arche d'Arogance
-
-#### Route des lamentations
+#### Sanctuaire d'Alarix
 
 - Premier boss
-    - Éviter boules électriques
-    - Tourner autour de lui pour éviter les rayons
+    - Attention à l'oxygène
+    - Deux groupes (sorcière & requin)
+    - Groupe sorcière, éviter boule noire
+    - Tuer boule jaune pour safe zone
 - Deuxième boss
-    - 4 Joueurs dans une zone en horloge
-    - Prendre 3 boules jaunes
-    - Capturer boules rouges
-
-#### Forge de l'orgueil déchu
-
-- Premier boss
-    - Ne pas coller le joueur qui a une bombe
-    - Tuer les dragons
-- Deuxième boss
-    - Ne pas taper quand il met son bouclier
-    - Tuer alt de la couleur de la boule puis safe zone
+    - Ne pas coller les alliés avec une zone rouge
+    - Si flèche rouge, se mettre en face du pilonne
+- Troisième boss
+    - Ne pas coller les alliés avec une zone blanche
+    - Taper allié, glacer sinon OS
+    - Taper orbes jaune et taper le boss (faire 2 groupes)
+    - Entrer safe zone
+    - Détruire orbe lumineux
 
 ## Puits d'Oreha
 
