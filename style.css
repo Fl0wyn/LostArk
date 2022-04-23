@@ -9,7 +9,7 @@ body {
 }
 
 .bob {
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 .bg-lostark {
@@ -29,7 +29,7 @@ h4 {
   text-shadow: black 0.1em 0.1em 0.1em;
   padding: 40px;
   width: 614px;
-  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 70%, transparent 100%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 60%, transparent 100%);
   border-radius: 4px;
 }
 
