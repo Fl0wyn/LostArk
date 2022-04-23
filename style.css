@@ -1,0 +1,26 @@
+:root {
+  --bg-lostark: #141312;
+}
+
+html,
+body {
+  background: url(images/smoke.jpg) #000000 right no-repeat fixed !important;
+  color: #f4f3f2;
+}
+
+.bg-lostark {
+  background-color: var(--bg-lostark) !important;
+}
+.sub-lostark {
+  color: #b5b5b5;
+}
+
+h2 {
+  margin-top: 80px;
+  text-align: center;
+  padding: 4px;
+}
+
+h4 {
+  border-bottom: 2px #bda151 outset;
+}

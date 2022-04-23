@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Lost ARK - Guide des monstres</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar bg-lostark">
+      <div class="container-fluid">
+        <span class="fw-normal sub-lostark">
+          <img src="images/logo.png" alt="logo" height="32">
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto px-0 ">
+        <div class="sticky-top d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
+          <span class="fs-5 d-none d-sm-inline pb-3 mb-md-0 me-md-auto"> <img src="images/abysses.webp" width="22px"
+              alt="logo" style="margin-top: -6px; margin-right:6px">Donjon des abysses</span>
+
+          <!-- Vue list -->
+          <div id="app">
+            <ul class="nav flex-column">
+              <li class="nav-item" v-for="item in items">
+                <a :href="'#' + item.link" class="nav-link text-white px-0">
+                  <span class="ms-1">{{ item.title }}</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="col py-3">
+
+        <section class="text-center container">
+          <div class="row pt-lg-3">
+            <div>
+              <h1 class="fw-light text-white">Guide des monstres</h1>
+              <img src="images/split.png" class="p-2" alt="split">
+              <p class="lead text-muted">Mémo des boss des Donjon des abysses et raid de gardien</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Markdown file -->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div id="doc"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.33/vue.global.js"></script>
+  <script src="app.js"></script>
+
+  <script>
+    Vue.createApp({
+      data() {
+        return {
+          items: [
+            { title: "Arche d'Arogance", link: 'archedarogance' },
+            { title: "Puits d'oreha", link: 'puitsdoreha' }
+          ]
+        }
+      }
+
+    }).mount('#app')
+  </script>
+
+</body>
+
+</html>
