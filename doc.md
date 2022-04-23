@@ -3,11 +3,12 @@
 #### Route des lamentations
 
 - Premier boss
-    - ???
+    - Éviter boules électriques
+    - Tourner autour de lui pour éviter les rayons
 - Deuxième boss
     - 4 Joueurs dans une zone en horloge
     - Prendre 3 boules jaunes
-    - Capturer boule rouge
+    - Capturer boules rouges
 
 #### Forge de l'orgueil déchu
 
