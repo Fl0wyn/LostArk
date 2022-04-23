@@ -27,13 +27,10 @@
     - OS si le  boss a trois épées
     - Après sont attaques des 4 côtés et de la zone, se mettre au cac pour se faire attraper
 - Deuxième boss
+    - TP x2 (12 barres et 6 barres HP)
     - Ne pas s'approcher tout de suite lors du 2eme TP
     - Détruire les ballons
     - Taper les alliés étourdit
-
-> 1er TP : 12 barres HP
->
-> 2eme TP : 6 barres HP
 
 #### Preveza d'Oreha
 
