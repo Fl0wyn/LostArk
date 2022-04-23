@@ -4,7 +4,7 @@
 
 html,
 body {
-  background: url(images/smoke.jpg) right no-repeat fixed !important;
+  background: url(images/smoke.jpg) #000 right no-repeat fixed !important;
   color: #f4f3f2;
 }
 
