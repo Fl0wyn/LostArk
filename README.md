@@ -1,3 +1,3 @@
-# Lost Ark - Guide des monstres
+# Lost Ark - Guide des boss
 
-Mémo des boss des Donjon des abysses
+Mon mémo des boss
