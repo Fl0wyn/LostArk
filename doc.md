@@ -38,6 +38,7 @@
     - Tuer les deux pirates et casser shield boss
 - Deuxième boss
     - Attention à l'oxygène
+    - Ne pas se toucher avec les pizzas rouges
     - Tuer le poisson
 - Troisième boss
     - Attention à l'oxygène
