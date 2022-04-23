@@ -8,7 +8,7 @@ body {
   color: #f4f3f2;
 }
 
-.bob {
+.sidebarlostark {
   margin-top: 40px;
 }
 
@@ -37,7 +37,6 @@ h4 {
 #routedeslamentations {
   background-image: url(images/abysses/routedeslamentations.jpg);
 }
-
 #forgedelorgueildchu {
   background: url(images/abysses/forgedelorgueildchu.jpg);
 }
@@ -57,7 +56,6 @@ h4 {
 #oeildaira {
   background: url(images/abysses/oeildaira.jpg);
 }
-
 #prevezadoreha {
   background: url(images/abysses/prevezadoreha.jpg);
 }
