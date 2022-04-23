@@ -1,3 +1,22 @@
+## Porte du paradis
+
+#### Mer Indolente
+
+- Premier boss
+    - Transformation
+    - Tuer alt
+- Deuxième boss
+    - Attention à l'oxygène
+    - Casser bulle des aliés
+    - Prendre zone safe
+
+#### Karkosa silencieux
+
+- Premier boss
+    - 
+- Deuxième boss
+    -
+
 ## Arche d'Arogance
 
 #### Route des lamentations
