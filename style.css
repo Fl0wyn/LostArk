@@ -5,7 +5,7 @@
 html,
 body {
   background: url(images/smoke.jpg) #000 right no-repeat fixed !important;
-  color: #f4f3f2;
+  color: #FFF;
 }
 
 .sidebarlostark {
@@ -14,9 +14,6 @@ body {
 
 .bg-lostark {
   background-color: var(--bg-lostark) !important;
-}
-.sub-lostark {
-  color: #b5b5b5;
 }
 
 h2 {
@@ -31,31 +28,4 @@ h4 {
   width: 614px;
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 20%, transparent 100%);
   border-radius: 6px;
-}
-
-/* Arche d'Arogance */
-#routedeslamentations {
-  background-image: url(images/abysses/routedeslamentations.jpg);
-}
-#forgedelorgueildchu {
-  background: url(images/abysses/forgedelorgueildchu.jpg);
-}
-
-/* Porte du paradis */
-#merindolente {
-  background: url(images/abysses/merindolente.jpg);
-}
-#karkosasilencieux {
-  background: url(images/abysses/karkosasilencieux.jpg);
-}
-#sanctuairedalaric {
-  background: url(images/abysses/sanctuairedalaric.jpg);
-}
-
-/* Puits d'Oreha */
-#oeildaira {
-  background: url(images/abysses/oeildaira.jpg);
-}
-#prevezadoreha {
-  background: url(images/abysses/prevezadoreha.jpg);
 }
