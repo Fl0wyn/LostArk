@@ -28,27 +28,35 @@
     <div class="container">
       <div class="row flex-nowrap">
         <div class="col-auto px-0 sidebarlostark">
+
+          <!-- Vue list -->
           <div class="sticky-top d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white">
-            <span class="fs-5 d-none d-sm-inline pb-3 mb-md-0 me-md-auto">Donjon des abysses</span>
+            <div v-for="(item, index) in items" :key="index">
+              <img :src="'images/' + index.replaceAll(' ', '') + '.png'" width="18" style="margin-top: -6px">
+              <span class="px-2 fs-5">{{ index }}</span>
 
-            <!-- Vue list -->
-            <ul class="nav flex-column">
-              <li class="nav-item" v-for="item in items">
-                <a :href="'#' + item.link" class="nav-link text-white px-0">
-                  <span class="badge bg-dark rounded-pill">{{ 'T' + item.tier }}</span>
-                  <span class="ms-1">{{ item.title }}</span>
-                </a>
-              </li>
-            </ul>
+              <div v-for="n in 1" :key="n">
+                <div v-for="k in n + 2" :key="k">
+                  <ul class="nav flex-column">
+                    <li class="nav-item" v-if="item[k - 1]">
+                      <a :href="'#' + item[k - 1].link" class="nav-link text-white px-0">
+                        <span style="margin-left: 28px">{{ item[k - 1].title }}</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+            </div>
           </div>
+
         </div>
         <div class="col py-3">
 
           <section class="text-center container">
             <div class="row pt-lg-3">
               <div>
-                <h1 class="fw-light text-white">{{ title }}</h1>
+                <p class="fw-light fs-1 text-white">{{ title }}</p>
                 <img src="images/split.png" class="p-2" alt="split">
                 <p class="lead">{{ subtitle }}</p>
               </div>
@@ -79,21 +87,19 @@
           documentTitle: 'Lost Ark - Guide des boss',
           title: 'Guide des boss',
           subtitle: 'Mon mémo des boss',
-
-          items: [
-            { title: "Arche d'Arogance", tier: '2', link: 'archedarogance' },
-            {
-              title: "Porte du paradis", tier: '2', link: 'porteduparadis'
-            },
-            { title: "Puits d'oreha", tier: '3', link: 'puitsdoreha' }
-          ],
+          items: []
         }
       },
-
       mounted() {
         document.title = this.documentTitle
 
-        fetch('doc.md')
+        fetch('data.json')
+          .then(response => response.json())
+          .then(data => {
+            this.items = data.items
+          });
+
+        fetch('README.md')
           .then(response => response.text())
           .then(data => {
 
@@ -101,11 +107,14 @@
             var converter = new showdown.Converter();
             document.getElementById("doc").innerHTML = converter.makeHtml(data);
 
+            document.getElementsByTagName("h1")[0].style.display = "none";
+            document.getElementsByTagName("h6")[0].style.display = "none";
+
             /* Background image for <h4> */
             items = document.getElementsByTagName('h4')
             for (var i = 0; i < items.length; i++) {
               let id = items[i].id.innerHTML = items[i].id
-              document.getElementById(id).style.background = 'url(' + 'images/abysses/' + id + '.jpg' + ')';
+              document.getElementById(id).style.background = 'url(' + 'images/boss/' + id + '.jpg' + ')';
             }
 
           });
