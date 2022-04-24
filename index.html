@@ -93,34 +93,22 @@
       mounted() {
         document.title = this.documentTitle
 
-        /* Markdown converter */
-        var file = "doc.md";
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", file, false);
-        xhr.onload = function (e) {
-          if (xhr.readyState === 4) {
-            if (xhr.status === 200) {
-              var converter = new showdown.Converter(),
-                text = xhr.responseText,
-                html = converter.makeHtml(text);
-              document.getElementById("doc").innerHTML = html;
-            } else {
-              console.error(xhr.statusText);
-            }
-          }
-        };
-        xhr.onerror = function (e) {
-          console.error(xhr.statusText);
-        };
-        xhr.send(null);
+        fetch('doc.md')
+          .then(response => response.text())
+          .then(data => {
 
-        /* Background image for <h4> */
-        items = document.getElementsByTagName('h4')
-        for (var i = 0; i < items.length; i++) {
-          let id = items[i].id.innerHTML = items[i].id
-          console.log(id)
-          document.getElementById(id).style.background = 'url(' + 'images/abysses/' + id + '.jpg' + ')';
-        }
+            /* Markdown converter */
+            var converter = new showdown.Converter();
+            document.getElementById("doc").innerHTML = converter.makeHtml(data);
+
+            /* Background image for <h4> */
+            items = document.getElementsByTagName('h4')
+            for (var i = 0; i < items.length; i++) {
+              let id = items[i].id.innerHTML = items[i].id
+              document.getElementById(id).style.background = 'url(' + 'images/abysses/' + id + '.jpg' + ')';
+            }
+
+          });
       }
     }).mount('#app')
   </script>
