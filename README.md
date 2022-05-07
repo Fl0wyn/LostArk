@@ -46,7 +46,7 @@
     - Tuer l'alt
 - Troisième boss
     - Attention à l'oxygène
-    - Zone horloge 1,2,3 puis 1,2,3,3,4
+    - Zone horloge 1,2,3,4 puis 1,2,3,3,4
 
 #### Sanctuaire d'Alaric
 
