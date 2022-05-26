@@ -71,7 +71,7 @@
 
 - Premier boss
     - Mort si le boss a un bonus de trois épées
-    - Après sont attaques du boulet des 4 côtés et de la zone, se mettre en face pour se faire attraper
+    - Après sont attaques du boulet des 4 côtés et de la zone, se mettre en face pour se faire attraper (une fois sur deux)
 - Deuxième boss
     - TP x2 (12 barres et 6 barres HP)
     - Ne pas s'approcher tout de suite lors du 2ᵉ TP
@@ -95,8 +95,31 @@
 #### Argos
 
 - Phase 1
-    - ...
+    - Placement avant combat X3 (1=3,2=6,3=9,4=12)
+    - Caroussel :
+        - Soleil : Bas gauche
+        - Lune : Bas droite
 - Phase 2
-    - ...
+    - Bombe de destruction sur le 1er mini boss
 - Phase 3
+    - Forme soleil : 
+        - Récupérer fleur verte et éviter fleur rouge
+        - Zone sûre sur deux joueurs
+        - Zone sûre apparait aléatoirement
+    - Forme lune : 
+        - Récupérer fleur rouge et éviter fleur bleu
+        - Zone sûre apparait aléatoirement
+        - Récolter graine bleu
+    - Forme crépuscule : 
+        - Récupérer fleur bleu et éviter fleur verte
+        - Zone sûre sur les fleurs bleu
+
+
+## Raid de légion
+
+#### Valtan
+
+- Phase 1
+    -  ...
+- Phase 2
     - ...
