@@ -119,7 +119,33 @@
 
 #### Valtan
 
-- Phase 1
-    -  ...
-- Phase 2
-    - ...
+- Facile
+    - Phase 1
+        - 45 HP : Aller en bas à gauche de la carte
+        - 40 HP : Séparer les deux loups. 4 joueurs avec un buff peuvent taper le Loup bleu
+        - 30 HP : Aller en bas de la carte. Si Raid leader, invoquer Wei, prendre une orbe et se faire suivre par les autres
+        - 25 HP : Séparer les deux loups. 4 joueurs avec un buff peuvent taper le Loup bleu
+        - 15 HP : Aller en bas de la carte. Si Raid leader, invoquer Wei, prendre une orbe et se faire suivre par les autres
+    - Phase 2
+        - Première mécanique 4 murs à casser
+            - En bas à droite : Charge à esquiver et bombe de destruction
+            - En haut à droite : Zone à esquiver et aller dans la petite sûr
+            - En haut à gauche : Charge à esquiver et bombe de destruction
+            - En bas à gauche : Zone à esquiver et aller dans la petite sûr
+        - 130 HP : Le raid leader doit invoquer Balthor pour éviter la mort du groupe
+        - 110 HP : Se cacher derrière les 4 piliers. Un joueur ciblé va devoir se déplacer au dernier moment après la zone rouge
+        - 80 HP : Valtan détruit la carte. Aller à l'opposer et se cacher dernière le pilier
+        - 65 HP : Il faut le contrer
+        - 35 HP : Valtan detruit encore la carte. Aller à l'opposer et se cacher dernière le pilier
+        - 16 HP (GHOST VALTAN)
+            - Il rentre dans un portail
+            - Invoquer Balthor
+            - Esquive des zones
+            - Ne pas aller sur les piliers
+            - Contrer les ghost pour réduire son armure (x4) et utiliser Thirain
+
+- Difficile
+    - Phase 1
+        - ...
+    - Phase 2
+        - ...
